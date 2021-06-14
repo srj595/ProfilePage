@@ -1,0 +1,164 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  background-color: black;
+  padding: 30px;
+  text-align: center;
+}
+header h1 {
+  color: #fff;
+  font-size: 50px;
+}
+nav {
+  padding: 30px;
+}
+nav ul {
+  text-align: center;
+  /* list-style-type: none; */
+}
+nav ul li {
+  font-family: "Roboto", sans-serif;
+  display: inline;
+}
+
+nav li a {
+  text-decoration: none;
+  margin: 0px 30px;
+  color: #000;
+  font-weight: 700;
+  padding: 8px;
+}
+
+nav li a:hover {
+  color: #fff;
+  border: 1px solid blanchedalmond;
+  color: ;
+  background-color: #000;
+}
+
+.home {
+  background-image: url("sk1.jpg");
+  padding: 100px;
+  background-position: center;
+  background-size: cover;
+}
+.home__content {
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  color: #fff;
+}
+
+.home__content h4 {
+  font-weight: 550;
+  font-size: 38px;
+  margin-bottom: 15px;
+}
+.home__content h2 {
+  font-weight: 550;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.skills {
+  background-image: url("sk2.jpg");
+  padding: 50px;
+  background-position: center;
+  background-size: cover;
+}
+
+.skills h3 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 38px;
+  text-transform: uppercase;
+}
+.sk {
+  display: flex;
+  justify-content: center;
+}
+.skills__content {
+  display: flex;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.9);
+  padding: 30px;
+  width: 50%;
+}
+.aboutme {
+  background-image: url("sk3.jpg");
+  padding: 30px;
+  background-position: center;
+  background-size: cover;
+  /* background: rgba(0, 0, 0, 0.2; */
+}
+.aboutme h3 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 38px;
+  text-transform: uppercase;
+  /* opacity: 0.9; */
+}
+.aboutme__content {
+  color: #fff;
+  padding-bottom: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 30px;
+  /* justify-content: center; */
+}
+.aboutme__content p {
+  text-align: center;
+  width: 700px;
+  margin: auto;
+  padding: 35px;
+  font-weight: 400;
+
+  line-height: 30px;
+  font-size: 25px;
+}
+.contact {
+  background-image: url("jk4.jpg");
+  height: 300px;
+  padding: 30px;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.contact h3 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 38px;
+}
+footer {
+  text-align: center;
+  background: black;
+  color: #fff;
+  padding: 20px;
+}
+
+.contact__form {
+  padding: 40px;
+  text-align: center;
+}
+
+.contact__form input {
+  padding: 10px;
+  width: 30%;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.contact__form button {
+  padding: 10px 15px;
+  font-size: 20px;
+  font-weight: 501;
+  background-color: rgb(19, 138, 235);
+  color: #fff;
+  border-radius: 20px;
+  border: 2px solid rgb(19, 138, 235);
+}
